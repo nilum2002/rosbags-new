@@ -1,0 +1,451 @@
+{
+ "schema": "laser-person-tracks/1",
+ "bag": "/home/nilum/Desktop/rosbags-new/corridor_run_1",
+ "scan_topic": "/scan",
+ "annotation_frame": "laser",
+ "odom_frame": null,
+ "base_frame": null,
+ "laser_to_base": {
+  "x": 0.0,
+  "y": 0.0,
+  "yaw": 0.0
+ },
+ "match": {
+  "criterion": "euclidean_xy",
+  "threshold_m": 0.5
+ },
+ "note": "one entry per person, xy in metres in the annotation_frame; ignore means present but not fairly detectable in the laser",
+ "frames": {
+  "0": {
+   "t_ns": 1789205062973649887,
+   "pose": null,
+   "people": []
+  },
+  "5": {
+   "t_ns": 1789205063321843652,
+   "pose": null,
+   "people": []
+  },
+  "10": {
+   "t_ns": 1789205063566754999,
+   "pose": null,
+   "people": []
+  },
+  "15": {
+   "t_ns": 1789205063868785612,
+   "pose": null,
+   "people": [
+    {
+     "id": 20,
+     "xy": [
+      1.182,
+      1.3596
+     ],
+     "ignore": false
+    },
+    {
+     "id": 21,
+     "xy": [
+      2.9629,
+      0.1284
+     ],
+     "ignore": false
+    },
+    {
+     "id": 22,
+     "xy": [
+      2.5012,
+      -1.4766
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "20": {
+   "t_ns": 1789205064171640190,
+   "pose": null,
+   "people": [
+    {
+     "id": 20,
+     "xy": [
+      1.1381,
+      1.4256
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "25": {
+   "t_ns": 1789205064678728224,
+   "pose": null,
+   "people": [
+    {
+     "id": 20,
+     "xy": [
+      1.1601,
+      1.4476
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "30": {
+   "t_ns": 1789205065181338829,
+   "pose": null,
+   "people": [
+    {
+     "id": 20,
+     "xy": [
+      1.0941,
+      1.4696
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "35": {
+   "t_ns": 1789205065683734161,
+   "pose": null,
+   "people": [
+    {
+     "id": 20,
+     "xy": [
+      1.1381,
+      1.4916
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "40": {
+   "t_ns": 1789205066188797865,
+   "pose": null,
+   "people": [
+    {
+     "id": 1,
+     "xy": [
+      0.3466,
+      -6.9072
+     ],
+     "ignore": false
+    },
+    {
+     "id": 2,
+     "xy": [
+      -1.8301,
+      4.9874
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "45": {
+   "t_ns": 1789205066692906514,
+   "pose": null,
+   "people": []
+  },
+  "50": {
+   "t_ns": 1789205067197582115,
+   "pose": null,
+   "people": []
+  },
+  "55": {
+   "t_ns": 1789205067703000701,
+   "pose": null,
+   "people": []
+  },
+  "60": {
+   "t_ns": 1789205068207374438,
+   "pose": null,
+   "people": []
+  },
+  "65": {
+   "t_ns": 1789205068709660475,
+   "pose": null,
+   "people": []
+  },
+  "70": {
+   "t_ns": 1789205069215124208,
+   "pose": null,
+   "people": []
+  },
+  "75": {
+   "t_ns": 1789205069719891122,
+   "pose": null,
+   "people": []
+  },
+  "80": {
+   "t_ns": 1789205070224259988,
+   "pose": null,
+   "people": []
+  },
+  "85": {
+   "t_ns": 1789205070727624875,
+   "pose": null,
+   "people": []
+  },
+  "90": {
+   "t_ns": 1789205071232126590,
+   "pose": null,
+   "people": []
+  },
+  "95": {
+   "t_ns": 1789205071740319787,
+   "pose": null,
+   "people": [
+    {
+     "id": 3,
+     "xy": [
+      -7.9643,
+      2.1511
+     ],
+     "ignore": false
+    },
+    {
+     "id": 4,
+     "xy": [
+      -1.0386,
+      3.3164
+     ],
+     "ignore": false
+    },
+    {
+     "id": 5,
+     "xy": [
+      -0.379,
+      1.5575
+     ],
+     "ignore": false
+    },
+    {
+     "id": 6,
+     "xy": [
+      -0.5329,
+      1.3157
+     ],
+     "ignore": false
+    },
+    {
+     "id": 7,
+     "xy": [
+      1.0721,
+      -1.3667
+     ],
+     "ignore": false
+    },
+    {
+     "id": 8,
+     "xy": [
+      3.2488,
+      1.0518
+     ],
+     "ignore": false
+    },
+    {
+     "id": 9,
+     "xy": [
+      -0.9726,
+      3.6462
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "100": {
+   "t_ns": 1789205072241184501,
+   "pose": null,
+   "people": []
+  },
+  "200": {
+   "t_ns": 1789205082323575037,
+   "pose": null,
+   "people": []
+  },
+  "205": {
+   "t_ns": 1789205082828490319,
+   "pose": null,
+   "people": []
+  },
+  "210": {
+   "t_ns": 1789205083334179825,
+   "pose": null,
+   "people": []
+  },
+  "215": {
+   "t_ns": 1789205083836396827,
+   "pose": null,
+   "people": []
+  },
+  "220": {
+   "t_ns": 1789205084341348885,
+   "pose": null,
+   "people": []
+  },
+  "225": {
+   "t_ns": 1789205084846227278,
+   "pose": null,
+   "people": []
+  },
+  "230": {
+   "t_ns": 1789205085350900268,
+   "pose": null,
+   "people": []
+  },
+  "235": {
+   "t_ns": 1789205085853124288,
+   "pose": null,
+   "people": []
+  },
+  "240": {
+   "t_ns": 1789205086358009459,
+   "pose": null,
+   "people": []
+  },
+  "245": {
+   "t_ns": 1789205086863591375,
+   "pose": null,
+   "people": []
+  },
+  "250": {
+   "t_ns": 1789205087367251033,
+   "pose": null,
+   "people": []
+  },
+  "255": {
+   "t_ns": 1789205087869872231,
+   "pose": null,
+   "people": []
+  },
+  "260": {
+   "t_ns": 1789205088375115394,
+   "pose": null,
+   "people": []
+  },
+  "265": {
+   "t_ns": 1789205088879743959,
+   "pose": null,
+   "people": [
+    {
+     "id": 10,
+     "xy": [
+      -1.6102,
+      1.2277
+     ],
+     "ignore": false
+    },
+    {
+     "id": 11,
+     "xy": [
+      -1.4563,
+      1.7994
+     ],
+     "ignore": false
+    },
+    {
+     "id": 12,
+     "xy": [
+      0.4125,
+      1.0738
+     ],
+     "ignore": false
+    },
+    {
+     "id": 13,
+     "xy": [
+      0.4125,
+      1.0738
+     ],
+     "ignore": false
+    },
+    {
+     "id": 14,
+     "xy": [
+      0.4125,
+      1.0738
+     ],
+     "ignore": false
+    },
+    {
+     "id": 15,
+     "xy": [
+      1.7977,
+      -0.1134
+     ],
+     "ignore": false
+    },
+    {
+     "id": 16,
+     "xy": [
+      1.7977,
+      -0.1134
+     ],
+     "ignore": false
+    },
+    {
+     "id": 17,
+     "xy": [
+      -0.7528,
+      -0.7071
+     ],
+     "ignore": false
+    },
+    {
+     "id": 18,
+     "xy": [
+      1.0941,
+      -1.3887
+     ],
+     "ignore": false
+    },
+    {
+     "id": 19,
+     "xy": [
+      0.1267,
+      -1.4326
+     ],
+     "ignore": false
+    }
+   ]
+  },
+  "270": {
+   "t_ns": 1789205089382087088,
+   "pose": null,
+   "people": []
+  },
+  "275": {
+   "t_ns": 1789205089887505748,
+   "pose": null,
+   "people": []
+  },
+  "280": {
+   "t_ns": 1789205090392337513,
+   "pose": null,
+   "people": []
+  },
+  "285": {
+   "t_ns": 1789205090896690083,
+   "pose": null,
+   "people": []
+  },
+  "290": {
+   "t_ns": 1789205091399696087,
+   "pose": null,
+   "people": []
+  },
+  "295": {
+   "t_ns": 1789205091904288857,
+   "pose": null,
+   "people": []
+  },
+  "300": {
+   "t_ns": 1789205092408942014,
+   "pose": null,
+   "people": []
+  },
+  "400": {
+   "t_ns": 1789205101889720959,
+   "pose": null,
+   "people": []
+  }
+ }
+}
